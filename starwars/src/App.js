@@ -19,7 +19,7 @@ const App = () => {
   const Buttons = styled.button`
     background-color: gray;
     border-color: gray;
-    border-radius: 8px;
+    border-radius: 6px;
     width: 75px;
     height: 20px;
     margin: 5px;

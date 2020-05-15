@@ -9,9 +9,10 @@ const Container = styled.div`
 `;
 const CharacterContainer = styled.div`
   border: 2px solid white;
-  margin: 0 auto;
+  margin: 8px auto;
   width: 60%;
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
 `;
 
 const CharacterName = styled.h1`
