@@ -10,3 +10,10 @@
 
 4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
     A "side effect" is anything that affects something outside the scope of the function being executed. These can be, say, a network request, which has your code communicating with a third party (and thus making the request, causing logs to be recorded, caches to be saved or updated, all sorts of effects that are outside the function.
+
+
+Yoda Speak:
+
+    While this loads please wait. Yes, hrrrm.
+
+    An error retrieving the data there was. Hrmmm.
