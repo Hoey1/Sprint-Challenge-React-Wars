@@ -8,11 +8,20 @@ const Container = styled.div`
   align-content: center;
 `;
 const CharacterContainer = styled.div`
-  border: 2px solid white;
+  border: 4px solid white;
   margin: 8px auto;
-  width: 60%;
+  width: 50%;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+  /* border-radius: 50%; */
+  &:hover {
+    border: 4px solid black;
+    margin: 8px auto;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+  }
 `;
 
 const CharacterName = styled.h1`

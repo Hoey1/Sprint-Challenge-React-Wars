@@ -17,12 +17,13 @@ const App = () => {
   const [currentURL, setCurrentURL] = useState(url);
 
   const Buttons = styled.button`
-    background-color: gray;
-    border-color: gray;
-    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: white;
+    border-radius: 10px;
     width: 75px;
-    height: 20px;
+    height: 35px;
     margin: 5px;
+    color: white;
   `;
 
   useEffect(() => {
