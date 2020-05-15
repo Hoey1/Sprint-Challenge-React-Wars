@@ -23,7 +23,16 @@ const App = () => {
     width: 75px;
     height: 35px;
     margin: 5px;
-    color: white;
+    color: black;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-color: black;
+      border-radius: 10px;
+      width: 75px;
+      height: 35px;
+      margin: 5px;
+      color: white;
+    }
   `;
 
   useEffect(() => {

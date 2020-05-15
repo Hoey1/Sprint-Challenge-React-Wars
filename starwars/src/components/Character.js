@@ -26,7 +26,7 @@ const CharacterContainer = styled.div`
 
 const CharacterName = styled.h1`
   font-family: "Ubuntu", sans-serif;
-  text-decoration: none;
+  /* text-decoration: underline overline wavy white; */
 `;
 
 const CharacterStats = styled.p`
