@@ -41,9 +41,10 @@ function Character(props) {
       <Container>
         <CharacterContainer>
           <CharacterName>{props.char.name}</CharacterName>
-          <CharacterStats>Height: {props.char.height}</CharacterStats>
-          <CharacterStats>Mass: {props.char.mass}</CharacterStats>
-          <CharacterStats>Birth Year: {props.char.birth_year}</CharacterStats>
+          {/* <CharacterStats>{props.char.image}</CharacterStats> */}
+          <CharacterStats>Status: {props.char.status}</CharacterStats>
+          <CharacterStats>Species: {props.char.species}</CharacterStats>
+          <CharacterStats>Gender: {props.char.gender}</CharacterStats>
         </CharacterContainer>
       </Container>
     );

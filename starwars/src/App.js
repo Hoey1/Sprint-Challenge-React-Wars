@@ -12,7 +12,7 @@ const App = () => {
   // side effect in a component, you want to think about which state and/or props it should
   // sync up with, if any.
 
-  const url = "https://swapi.dev/api/people/"; // I'd like to see if this custom shortened link tracks clicks for API's https://bit.ly/reactWars
+  const url = "https://rickandmortyapi.com/api/character/";
   const [characterData, setCharacterData] = useState({});
   const [currentURL, setCurrentURL] = useState(url);
 
