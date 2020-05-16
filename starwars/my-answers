@@ -1,0 +1,19 @@
+1. What is React JS and what problems does it solve? 
+    Support your answer with concepts introduced in class and from your personal research on the web.
+    DOM operations are quite expensive in terms of performance, and any application that has much of DOM operations in the background will render slowly. If the page has data that changes over time at high rates (for example, lots of people commenting on a post, likes being generated etc), then there is a requirement for DOM updates to be very fast and also reflect in other parts of the UI if they use the same data.
+
+2. Describe component state.
+    It schedules an update to a component’s state object. When state changes, the component responds by re-rendering.
+
+3. Describe props.
+    Props are variables passed to it by its parent component.
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+    A "side effect" is anything that affects something outside the scope of the function being executed. These can be, say, a network request, which has your code communicating with a third party (and thus making the request, causing logs to be recorded, caches to be saved or updated, all sorts of effects that are outside the function.
+
+
+Yoda Speak:
+
+    While this loads please wait. Yes, hrrrm.
+
+    An error retrieving the data there was. Hrmmm.
