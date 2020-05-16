@@ -6,6 +6,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-content: center;
+  flex-direction: column;
 `;
 const CharacterContainer = styled.div`
   border: 4px solid white;
@@ -33,6 +34,13 @@ const CharacterStats = styled.p`
   font-family: "Ubuntu", sans-serif;
 `;
 
+const StyledImage = styled.img`
+  /* border-radius: 50%; */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+`;
+
 function Character(props) {
   if (!props.char) {
     return <h3>Patience You Need</h3>;
@@ -41,7 +49,6 @@ function Character(props) {
       <Container>
         <CharacterContainer>
           <CharacterName>{props.char.name}</CharacterName>
-          {/* <CharacterStats>{props.char.image}</CharacterStats> */}
           <CharacterStats>Status: {props.char.status}</CharacterStats>
           <CharacterStats>Species: {props.char.species}</CharacterStats>
           <CharacterStats>Gender: {props.char.gender}</CharacterStats>
